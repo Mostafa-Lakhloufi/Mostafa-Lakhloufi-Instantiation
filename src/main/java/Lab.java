@@ -1,3 +1,4 @@
+import kotlin.text.TypeAliasesKt;
 
 public class Lab {
     /**
@@ -18,6 +19,7 @@ public class Lab {
      * @return any object.
      */
     public Object instantiateANewObject(){
-        return null;
+        Lab practice = new Lab();
+        return practice;
     }
 }
